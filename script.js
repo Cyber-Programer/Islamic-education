@@ -1,3 +1,14 @@
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('.main'),
+    smoothScroll: true,
+    lerp: 0.01, // Decrease the lerp value for smoother but slower scrolling
+    multiplier: 1, // Adjust the multiplier to control the scrolling speed (lower value for slower scrolling)
+    getSpeed: true,
+    getDirection: true,
+    scrollFromAnywhere: true, // Enable smooth scrolling from any position
+    touchMultiplier: 1, // Adjust touch multiplier for smoother scrolling on touch devices
+    inertia: 0.2 // Decrease inertia for smoother but slower scrolling
+});
 
 
 
@@ -137,14 +148,3 @@ gsap.from('.page3 .left h3',{
 
 })
 
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('.main'),
-    smoothScroll: true,
-    lerp: 0.01, // Decrease the lerp value for smoother but slower scrolling
-    multiplier: 1, // Adjust the multiplier to control the scrolling speed (lower value for slower scrolling)
-    getSpeed: true,
-    getDirection: true,
-    scrollFromAnywhere: true, // Enable smooth scrolling from any position
-    touchMultiplier: 1, // Adjust touch multiplier for smoother scrolling on touch devices
-    inertia: 0.2 // Decrease inertia for smoother but slower scrolling
-});
