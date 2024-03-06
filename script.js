@@ -117,14 +117,14 @@ gsap.from('.page2 h3',{
 
 
 gsap.from('.page2 .scrool-container',{
-    y:400,
+    x:-400,
     duration:0.5,
     delay:0.2,
     ease:'power1.inOut',
     scrollTrigger:{
         trigger:'.scrool-container',
         scroller:'body',
-        start:'top 98%',
+        start:'top 85%',
         // scrub: true,
         // markers:true,
     }
@@ -149,8 +149,9 @@ gsap.from('.page3 .left h2',{
     scrollTrigger:{
         trigger:'.page3 .left h2',
         scroller:'body',
-        start:'top 60%',
+        start:'top 90%',
         ease: 'power1.inOut',
+        // markers:true
     }
 })
 
@@ -161,7 +162,77 @@ gsap.from('.page3 .left p',{
     scrollTrigger:{
         trigger:'.page3 .left p',
         scroller:'body',
-        start:'top 60%',
+        start:'top 95%',
     }
 })
 
+gsap.from('.page4 .right h2',{
+    x:100,
+    duration:0.8,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page4 .right h2',
+        scroller:'body',
+        start:'top 93%',
+    }
+})
+
+gsap.from('.page4 .right p',{
+    x:100,
+    duration:0.8,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page4 .right p',
+        scroller:'body',
+        start:'top 95%',
+
+    }
+})
+
+
+gsap.from('.page5 .left h2',{
+    x:200,
+    duration:0.7,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page5 .left h2',
+        scroller:'body',
+        start:'top 90%',
+    }
+
+})
+
+gsap.from('.page5 .left p',{
+    x:-200,
+    duration:0.7,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page5 .left p',
+        scroller:'body',
+        start:'top 95%',
+    }
+})
+
+gsap.from('.page6 .right h2',{
+    y:-100,
+    duration:0.7,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page6 .right h2',
+        scroller:'body',
+        start:'top 90%',
+        // markers:true
+    }
+})
+
+gsap.from('.page6 .right p',{
+    x:150,
+    duration:0.7,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page6 .right p',
+        scroller:'body',
+        start:'top 88%',
+        // markers:true
+    }
+})
