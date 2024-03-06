@@ -142,9 +142,26 @@ gsap.to('.page2 .scrool-container', {
 });
 
 
-gsap.from('.page3 .left h3',{
-    x:40,
-    duration:0.3,
+gsap.from('.page3 .left h2',{
+    x:100,
+    duration:0.8,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page3 .left h2',
+        scroller:'body',
+        start:'top 60%',
+        ease: 'power1.inOut',
+    }
+})
 
+gsap.from('.page3 .left p',{
+    x:-100,
+    duration:0.8,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page3 .left p',
+        scroller:'body',
+        start:'top 60%',
+    }
 })
 
