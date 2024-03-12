@@ -134,7 +134,9 @@ ul li{
 
 .question-container .question{
     max-height: 200px;
-    max-width: 400px;
+    max-width: auto;
+    min-height: 100px;
+    min-width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,7 +177,7 @@ ul li{
 }
 
 .ans i{
-    position: absolute;
+    position:absolute;
     right: 6px;
     cursor: pointer;
     display: block;
