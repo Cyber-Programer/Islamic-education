@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Loop through each question element
     questions.forEach(function (question) {
         // Add click event listener to each question
-        question.addEventListener('click', function () {
+        question.addEventListener('click', function (e) {
             // Find the corresponding answer element
             var answer = question.nextElementSibling;
 
@@ -15,6 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 ans.style.display = 'none';
             });
             answer.style.display = 'block';
+            answer.style.left = (e.clientX - 107) + 'px'; // Set the left position
+            answer.style.top = (e.clientY + 142) + 'px'; // Set the top position
+            console.log(e.clientX , e.clientY);
         });
     });
 
