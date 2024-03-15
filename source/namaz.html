@@ -22,6 +22,7 @@
 </head>
 <body>
     <div class="main">
+        
         <div class="page1">
 
             <nav>
@@ -263,8 +264,32 @@
 
             </div>
 
-        </div>
+            <section id="question-box">
+                <h3>Submit Your Question</h3>
+                
+                <div class="popup">
+                    <h3>Thanks for submit</h3>
+                    <p id="tx">You question has been successfully submited.</p>
+                    <button type="button" id="ok">OK</button>
+                </div>
+                
+                <form id="question-form">
+                    <label for="text">Enter Your Name</label>
+                    <input spellcheck="false" type="text" id="name" placeholder="Your name...">
+        
+                    <label for="text">Social Media Link</label>
+                    <input type="link" spellcheck="false" id="link" placeholder="https://facebook.com/ ...">
+        
+                    <label for="text">What's Your Question?</label>
+                    <textarea id="qip" placeholder="What is your question tell us.." spellcheck="false"></textarea>
 
+                    <button id="btn">Submit</button>
+        
+                </form>
+
+            </section>
+
+        </div>
 
     </div>
     <script src="namaz.js"></script>
