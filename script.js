@@ -236,3 +236,27 @@ gsap.from('.page6 .right p',{
         // markers:true
     }
 })
+
+
+gsap.from('.page7 .left h2',{
+    x:200,
+    duration:0.7,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page7 .left h2',
+        scroller:'body',
+        start:'top 90%',
+    }
+
+})
+
+gsap.from('.page7 .left p',{
+    x:-200,
+    duration:0.7,
+    delay:0.1,
+    scrollTrigger:{
+        trigger:'.page7 .left p',
+        scroller:'body',
+        start:'top 95%',
+    }
+})
